@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  
+ 
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  
+
+}
+.container .title{
+  font-size: 30px;
+  font-weight: bold;
+  color: orange;
+  
+}
+.content{
+ 
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+  
+  
+  border-radius: 20px;
+  box-shadow: 0 5px 5px black;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+ul li{
+  padding: 10px 20px;
+  width: 100%;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background-color: orange;
+  font-weight: bold;
+  border-radius: 20px;
+}
